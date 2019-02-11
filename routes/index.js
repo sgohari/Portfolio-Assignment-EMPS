@@ -14,8 +14,11 @@ router.get('/products', function(req, res, next) {
 router.get('/services', function(req, res, next) {
   res.render('index', { title: 'Services' });
 });
-router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact' });
+router.get('/contact', function(req, res,next) {
+  let messages = "<ul><li>Nasir</li><li>Manizha</li><li>Sepeher</li></ul>";
+  //res.send(block);
+  res.render('index', { title: 'Contact', block: messages });
+  
 });
 
 module.exports = router;

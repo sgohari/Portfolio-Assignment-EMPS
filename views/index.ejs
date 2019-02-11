@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%= title %>Assignment One Comp308</title>
+  <!--CSS SECTIONS-->
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Content/app.css">
+</head>
+<body>
+<div class="logo"> <a href ="/"><img src="Assets/images/logo.gif" height="40px"> </a></div>
+<nav>
+    <ul>
+      <li><a href="/"><i class="fa fa-lg fa-home"></i> Home</a></li>
+      <li><a href="/about"><i class="fa fa-lg fa-info-circle"></i> About</a></li>
+      <li><a href="/products"><i class="fa fa-lg fa-info-circle"></i> Product</a></li>
+      <li><a href="/services"><i class="fa fa-lg fa-info-circle"></i> Services</a></li>
+      <li><a href="/contact"><i class="fa fa-lg fa-phone"></i> Contact</a></li>
+    </ul>
+</nav>
+ <h1 class="display-4">This is a simple page for <%= block %></h1>
+ 
+
+<div class="footer">
+    <h6>&copy; COMP308 Assignment01</h6>
+<div class="s-m">
+    
+  <a href="https://www.linkedin.com/in/syed-nasir-gohary/"><i class="fa fa-lg fa-linkedin"></i></a>
+  <a href="https://twitter.com/"><i class="fa fa-2lg fa-twitter-square"></i></a>
+  <a href="https://github.com/sgohari"> <i class="fa fa-2lg fa-github"></i></a>
+
+</div>
+
+</div>
+  <!--JavaScript section-->
+  <script src="jquery/dist/jquery.slim.min.js"></script>
+  <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="Scripts/app.js"></script>
+</body>
 </html>
