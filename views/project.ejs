@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>COMP308-Assignment01</title>
+  <!--CSS section-->
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Content/app.css">
+  <link rel="stylesheet" href="Content/styleProject.css">
+
+</head>
+<body background="images/canadianflag.jpg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/"><img src="images/logo.png" height="35px"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <% if(title == "Home") { %>
+            <li class="nav-item active"><% } else { %></li>
+  
+            <li class="nav-item">
+              <% } %>
+  
+              <a class="nav-link" href="/"
+                ><i class="fa fa-lg fa-building"></i> Home
+                <span class="sr-only">(current)</span></a
+              >
+            </li>
+  
+            <% if(title == "About") { %>
+            <li class="nav-item active"><% } else { %></li>
+  
+            <li class="nav-item">
+              <% } %>
+  
+              <a class="nav-link" href="/about"
+                ><i class="fa fa-lg fa-info-circle"></i> About</a
+              >
+            </li>
+  
+            <% if(title == "Products") { %>
+            <li class="nav-item active"><% } else { %></li>
+  
+            <li class="nav-item">
+              <% } %>
+  
+              <a class="nav-link" href="/project"
+                ><i class="fa fa-lg fa-product-hunt"></i> Projects</a
+              >
+            </li>
+  
+            <% if(title == "Services") { %>
+            <li class="nav-item active"><% } else { %></li>
+  
+            <li class="nav-item">
+              <% } %>
+  
+              <a class="nav-link" href="/services"
+                ><i class="fa fa-lg fa-universal-access"></i> Services</a
+              >
+            </li>
+  
+            <% if(title == "Contact") { %>
+            <li class="nav-item active"><% } else { %></li>
+  
+            <li class="nav-item">
+              <% } %>
+  
+              <a class="nav-link" href="/contact"
+                ><i class="fa fa-lg fa-mobile"></i> Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+<div class="main">
+
+<h1>Following are the Projects I enjoyed!! </h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>Resize the browser window to see the responsive effect.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="/w3images/p3.jpg" alt="Bear" style="width:100%">
+  <h3>Some Other Work</h3>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+
+
+<% include ./partials/footer.ejs %>
