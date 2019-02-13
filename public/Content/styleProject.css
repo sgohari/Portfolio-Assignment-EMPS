@@ -23,7 +23,7 @@
   /* Create four equal columns that floats next to each other */
   .column {
     float: left;
-    width: 25%;
+    width: 50%;
   }
   
   /* Clear floats after rows */ 
@@ -35,12 +35,14 @@
   
   /* Content */
   .content {
-    background-color: white;
+    background-color:gray;
     padding: 10px;
+    border-radius: 20px;
+    
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1020px) {
     .column {
       width: 50%;
     }
