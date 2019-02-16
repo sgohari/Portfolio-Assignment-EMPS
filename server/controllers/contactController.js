@@ -39,7 +39,7 @@ module.exports.insertRecordToDB = (req, res, next)=>{
             res.end(err);
         }else{
             //res.redirect('./views/index');
-            res.redirect('aboutme');
+            res.redirect('/');
         }
     });
 }
