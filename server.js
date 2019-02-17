@@ -1,7 +1,6 @@
-#!/usr/bin/env node
-
-/**
- * Module dependencies.
+/**Name: Syed Nasir Gohary
+ * Subject: COMP308 ASSIGN01
+ * Date: 2019-02-16
  */
 
 let app = require('./server/config/app');

@@ -1,5 +1,5 @@
-var express = require('express');
-var router = express.Router();
+let express = require('express');
+let router = express.Router();
 
 
 //refering to aboutMe controller
@@ -8,6 +8,7 @@ let indexContoller = require('../controllers/indexController');
 /* GET home page. */
 router.get('/',indexContoller.displayHomePage );
 
+//routing to about page
 router.get('/about', indexContoller.displayAboutPage );
 
 router.get('/project', indexContoller.displayProjectPages );
