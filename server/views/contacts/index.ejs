@@ -1,20 +1,13 @@
 <% include ../partials/header.ejs %>
-
-<body background="images/canadianflag.jpg">
-
-
-<h1><%= title %></h1>
+<h1>Welcome to <%= title %> Page</h1>
+<hr>
 <!-- Content Row -->
     <div class="row">
-      <!-- Map Column -->
-      <div class="col-lg-8 mb-4">
-        <!-- Embedded Google Map -->
-        <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=43.784840,-79.227654&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
-      </div>
-      <!-- Contact Details Column -->
-      <div class="col-lg-4 mb-4">
-        <h3>Contact Details</h3>
-        <p>941 Progress Avenue
+  <div class="c">
+
+    <fieldset>
+    <legend>Contact Details:</legend>
+     <p>941 Progress Avenue
           <br>Toronto , ON M4A5R1
           <br>
         </p>
@@ -27,8 +20,15 @@
           </a>
         </p>
         <p>
-          Working Hours: Monday - Friday: 9:00 AM to 5:00 PM
+          Hours: Monday - Friday: 9:00 AM to 5:00 PM
         </p>
+  </fieldset>
+      
+    
+     </div>
+      <!-- Contact Details Column -->
+      <div class="col-lg-4 mb-4">
+        
       </div>
     </div>
     <!-- /.row -->
@@ -38,7 +38,7 @@
     <div class="row">
         <div class="col-md-offset-3 cold-md-6">
             
-            <h1>Your Feedbacks are hieghly valued</h1>
+            <h1>Your Feedbacks are highly valued</h1>
             <form action="" class="form" method="post">
                 <div class="form-group">
                     <label for="FirtNameTextField">First Name</label>
@@ -62,7 +62,7 @@
                 
                 </div>
                 <button type="submit" class="btn btn-primary"> 
-                <i class="fa fa-arrow-alt-right"></i> Send Now</button>
+                <i class="fa fa-lg fa-share-square"></i> Send Now</button>
             </form>
             
         </div>
