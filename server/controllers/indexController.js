@@ -15,7 +15,7 @@ module.exports.displayHomePage = (req, res, next)=> {
 
   //routing to about page
   module.exports.displayAboutPage =(req, res, next)=> {
-    res.render('index', { title: 'About' });
+    res.render('contacts/aboutme', { title: 'About' });
   }
 
   //routing to project page
@@ -30,5 +30,5 @@ module.exports.displayHomePage = (req, res, next)=> {
 
   //routing to contact page
   module.exports.displayContactMePage =(req, res, next)=> {
-    res.render('index', { title: 'Contact' });
+    res.render('contacts/index', { title: 'Contact' });
   }
