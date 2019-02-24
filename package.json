@@ -30,13 +30,9 @@
   "description": "portfolio for emps assignment",
   "main": "server.js",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sgohari/COMP308-W2019-ASSIGN01.git"
+    "type": "git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sgohari/COMP308-W2019-ASSIGN01/issues"
-  },
-  "homepage": "https://github.com/sgohari/COMP308-W2019-ASSIGN01#readme"
+  "author": "Syed Nasir Gohary",
+  "license": "ISC"
+ 
 }
