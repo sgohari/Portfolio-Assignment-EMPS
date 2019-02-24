@@ -1,6 +1,6 @@
 {
-  "name": "assignment01",
-  "version": "0.0.0",
+  "name": "portfolio",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node server.js"
@@ -26,6 +26,17 @@
     "@types/mongoose": "^5.3.12",
     "@types/morgan": "^1.7.35",
     "@types/node": "^10.12.24"
-  }
-  
+  },
+  "description": "portfolio for emps assignment",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgohari/COMP308-W2019-ASSIGN01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgohari/COMP308-W2019-ASSIGN01/issues"
+  },
+  "homepage": "https://github.com/sgohari/COMP308-W2019-ASSIGN01#readme"
 }
