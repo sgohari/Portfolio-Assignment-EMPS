@@ -1,35 +1,80 @@
-<!--File Name:
-Name: Syed Nasir Gohary
-StudentID: 300937424
-Date: 2019-02-16--->
 <% include ./partials/header.ejs %>
 <body background="/Assets/images/man-background.jpeg">
-  <h3 class="display-3">Syed Nasir Gohary</h3>
-<h3>Welcome! A bit about Me..</h3>
+  <img src="/Assets/images/namelogo.png" />
+  <h3>Welcome! A bit about Me..</h3>
 
+  <p class="p">
+    <img src="/Assets/images/nasir.jpeg" class="img" />
+    My name is Syed Nasir Gohary and I am studying Software Engineering and
+    Technology at Centennial College. I apply analytic thinking to problems and
+    find a pragmatic solution that isn't a quick fix, but a lasting value. I am
+    part of a development team who work for Centennial College Research
+    Department. In my software development team, I communicate clearly and
+    proactively. I thrive for the consistency and integrity of the creations of
+    my team. I am a software craftsman. I am proud of my work and understand it
+    as part of the creation of the community of software craftsmanship, which I
+    support. I am and always will be a student. I will keep the beginner's mind
+    by playing and experimenting without the fear of failure. There will always
+    be things I have to learn and I will improve my career day by day as
+    technology related subject is on rapid updates. I am an optimist and a
+    realist. I am willing to learn and to teach..<br /><br />
+    Thank you for visiting my e-portfolio! Please feel free to look around the
+    site and learn more about me and my interests.
+    <br />
+    <hr class="style-three" />
+  </p>
+  <div>
+    <!--Checking if it is homepage-->
+    <% if(title=="Home"){%>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="btn btn-primary" href="/contactme" role="button"
+      ><i class="fa fa-lg fa-phone-square"></i> Contact Me</a
+    >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="/Assets/images/ResumeNasirGoharyPortfolio.pdf"
+      class="btn btn-primary"><i class="fa fa-lg fa-file"></i> View My Resume</a>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="/Assets/images/Cover_LetterGohary.pdf"
+      class="btn btn-primary"><i class="fa fa-lg fa-file"></i> View My Cover Letter</a>
 
-<p class="p">
-  <img src="/Assets/images/nasir.jpeg" class="img">
-  My name is Syed Nasir Gohary and I am studying software Engineering and Technology in Centennial College. I apply analytic thinking to problems and find a pragmatic solution that isn't a quick fix,
-  but a lasting value. I am part of a development team who work for Centennial College Research Department. In my software 
-  development team, I communicate clearly and proactively.
-   I thrive for consistency and integrity of the creations of my team. I am a software craftsman.
-    I am proud of my work and understand it as part of the creation of the community of software craftmanship, which I support.
-     I am and always will be a student. I will keep the beginners mind by playing and experimenting without the fear of failure.
-      There will always be things I have to  learn and I will improve my career day by day as technology related subject are on rapid updates. I am an optimist and a realist. 
-     I am willing to learn and to teach.<br><br>
-       Thank you for visiting my e-portfolio! Please feel free to look around the site and learn more about me and my interests.
-       <hr>
-</p>
-<div>
-  <!--Checking if it is homepage-->
-  <% if(title=="Home"){%>
+    <hr class="style-three" />
+    <legends class="p">Referencies: </legends>
+    <fieldset>
+      <div class="row"> 
+        <div class="col-sm">
+          <h5>
+            Professor Tom Tsiliopoulos<br />
+            ICET Department School of Engineering Technology and
+            Applied Science Centennial College<br> 
+            Contact:416-938-2660
+            Email:tsiliopoulos@hotmail.com<br>
+            941 Progress Avenue, Toronto, Ontario, M1G 3T8
+          </h5>
+        </div>
 
-  <a class="btn btn-primary" href="/contactme" role="button"
-    ><i class="fa fa-lg fa-phone-square"></i> Contact Me</a
-  >
-   <a href="/Assets/images/ResumeNasirGoharyPortfolio.pdf"
-    class="btn btn-primary"><i class="fa fa-lg fa-file"></i> View My Resume</a>
-  <%} %> <% include ./partials/footer.ejs %>
-</div>
+        <div class="col-sm">
+          <h5>
+            Dr. Yin Hua Li <br>ICET Department School of Engineering Technology and
+            Applied Science Centennial College <br>Contact: 461 289 5000 Ext. 3425 <br>
+            Email: YLi@centennialcollege.ca <br>
+            941 Progress Avenue, Toronto, Ontario, M1G 3T8
+          </h5>
+        </div>
+        <div class="col-sm">
+          <h5>
+            Instructor / Professor Yilmaz Cam<br>
+            ICET Department School of Engineering Technology and
+            Applied Science Centennial Colleges<br>
+            Email:ycam@my.centennialcollege.ca<br>
+            941 Progress Avenue, Toronto, Ontario, M1G 3T8
+          </h5>
+        </div>
+      </div>
+    </fieldset>
+  </div>
 </body>
+
+<%} %> <% include ./partials/footer.ejs %>

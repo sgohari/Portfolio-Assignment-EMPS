@@ -82,6 +82,37 @@
  
 }
 
+.pp{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: blueviolet;
+  text-align: center;
+  background-color: azure;
+  border-radius: 25px;
+  padding-top: 0%;
+ 
+}
+
+.ppp{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: blueviolet;
+  text-align: center;
+  background-color: azure;
+  border-radius: 25px;
+  padding-top: 0%;
+ 
+}
+
+.pppp{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: blueviolet;
+  background-color: azure;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
 .x{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
@@ -114,3 +145,26 @@ div.below {
   grid-row-start: 2;
   grid-row-end; 2;
 }
+
+
+hr.style-three {
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  }
+  hr.style-three:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+  }
+
+  fldset{
+    background-color: gray;
+  }
