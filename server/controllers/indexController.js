@@ -32,3 +32,7 @@ module.exports.displayHomePage = (req, res, next)=> {
   module.exports.displayContactMePage =(req, res, next)=> {
     res.render('contacts/index', { title: 'Contact' });
   }
+
+  module.exports.displayEducationMePage= (req, res, next)=> {
+    res.render('contacts/education', { title: 'Education' });
+  }

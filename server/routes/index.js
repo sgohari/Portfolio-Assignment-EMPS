@@ -20,5 +20,6 @@ router.get('/project', indexContoller.displayProjectPages );
 router.get('/services', indexContoller.displayServicePage );
 
 router.get('/contact', indexContoller.displayContactMePage);
+router.get('/education', indexContoller.displayEducationMePage);
 
 module.exports = router;

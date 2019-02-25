@@ -45,6 +45,17 @@ Date: 2019-02-16--->
                 <span class="sr-only">(current)</span></a
               >
             </li>
+            
+             <% if(title == "Education") { %>
+            <li class="nav-item active"><% } else { %></li>
+  
+            <li class="nav-item">
+              <% } %>
+  
+              <a class="nav-link" href="/education"
+                ><i class="fa fa-graduation-cap"></i> Certificates</a>
+            </li>
+
   
             <% if(title == "About") { %>
             <li class="nav-item active"><% } else { %></li>
@@ -64,7 +75,7 @@ Date: 2019-02-16--->
               <% } %>
   
               <a class="nav-link" href="/project"
-                ><i class="fa fa-lg fa-product-hunt"></i> Projects</a
+                ><i class="fa fa-lg fa-product-hunt"></i> Work samples</a
               >
             </li>
   

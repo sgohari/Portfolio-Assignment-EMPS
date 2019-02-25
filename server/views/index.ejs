@@ -1,15 +1,35 @@
-
-<% include ./partials/header.ejs %>
 <!--File Name:
 Name: Syed Nasir Gohary
 StudentID: 300937424
 Date: 2019-02-16--->
-    <h1 class="display-4">Welcome to <%= title %></h1>
-    <!--Checking if it is homepage-->
-    <% if(title=="Home"){%>
-        <h2>Your idea and our solution will goes along the way</h2>
-        <a class="btn btn-primary" href="/contactme" role="button"><i class="fa fa-lg fa-phone-square"></i> Contact Me</a>
-        <a class="btn btn-primary" href="/aboutme" role="button"><i class="fa fa-lg fa-info"></i> About Me</a>
-    <%} %>
+<% include ./partials/header.ejs %>
+<body background="/Assets/images/man-background.jpeg">
+  <h3 class="display-3">Syed Nasir Gohary</h3>
+<h3>Welcome! A bit about Me..</h3>
 
-<% include ./partials/footer.ejs %>
+
+<p class="p">
+  <img src="/Assets/images/nasir.jpeg" class="img">
+  My name is Syed Nasir Gohary and I am studying software Engineering and Technology in Centennial College. I apply analytic thinking to problems and find a pragmatic solution that isn't a quick fix,
+  but a lasting value. I am part of a development team who work for Centennial College Research Department. In my software 
+  development team, I communicate clearly and proactively.
+   I thrive for consistency and integrity of the creations of my team. I am a software craftsman.
+    I am proud of my work and understand it as part of the creation of the community of software craftmanship, which I support.
+     I am and always will be a student. I will keep the beginners mind by playing and experimenting without the fear of failure.
+      There will always be things I have to  learn and I will improve my career day by day as technology related subject are on rapid updates. I am an optimist and a realist. 
+     I am willing to learn and to teach.<br><br>
+       Thank you for visiting my e-portfolio! Please feel free to look around the site and learn more about me and my interests.
+       <hr>
+</p>
+<div>
+  <!--Checking if it is homepage-->
+  <% if(title=="Home"){%>
+
+  <a class="btn btn-primary" href="/contactme" role="button"
+    ><i class="fa fa-lg fa-phone-square"></i> Contact Me</a
+  >
+   <a href="/Assets/images/ResumeNasirGoharyPortfolio.pdf"
+    class="btn btn-primary"><i class="fa fa-lg fa-file"></i> View My Resume</a>
+  <%} %> <% include ./partials/footer.ejs %>
+</div>
+</body>
